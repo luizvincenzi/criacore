@@ -1,12 +1,13 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { supabase } from '@/lib/supabase/client'
 import { useSupabase } from '@/lib/supabase/provider'
 
-export default function SignUp() {
+// Client component that uses useSearchParams
+function SignUpContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const { user } = useSupabase()
@@ -310,4 +311,25 @@ export default function SignUp() {
       </div>
     </div>
   )
+}
+
+// Loading fallback
+function SignUpFallback() {
+  return (
+    <div className="min-h-screen bg-background flex flex-col justify-center items-center">
+      <div className="text-center">
+        <h2 className="text-2xl font-semibold mb-4">Carregando...</h2>
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div>
+      </div>
+    </div>
+  );
+}
+
+// Main component with Suspense boundary
+export default function SignUp() {
+  return (
+    <Suspense fallback={<SignUpFallback />}>
+      <SignUpContent />
+    </Suspense>
+  );
 }

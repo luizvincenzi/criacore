@@ -1,4 +1,4 @@
-// File: /Users/luizgustavovincenzi/ai-projects/CriaCore/criacore-1/src/app/dashboard/campaigns/page.tsx
+// File: /Users/luizgustavovincenzi/ai-projects/criacore/criacore/src/app/dashboard/campaigns/page.tsx
 import * as entry from '../../../../../src/app/dashboard/campaigns/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

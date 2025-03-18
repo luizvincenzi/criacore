@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/auth/callback/page": "/auth/callback",
+  "/auth/login/page": "/auth/login",
+  "/auth/onboarding/page": "/auth/onboarding",
+  "/page": "/",
+  "/auth/signup/page": "/auth/signup",
+  "/api/campaigns/route": "/api/campaigns",
+  "/api/coupons/redeem/route": "/api/coupons/redeem",
+  "/dashboard/campaigns/new/page": "/dashboard/campaigns/new",
+  "/dashboard/campaigns/page": "/dashboard/campaigns",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/campaigns/[id]/page": "/dashboard/campaigns/[id]"
+}

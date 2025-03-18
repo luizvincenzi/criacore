@@ -1,4 +1,4 @@
-// File: /Users/luizgustavovincenzi/ai-projects/CriaCore/criacore-1/src/app/auth/onboarding/page.tsx
+// File: /Users/luizgustavovincenzi/ai-projects/criacore/criacore/src/app/auth/onboarding/page.tsx
 import * as entry from '../../../../../src/app/auth/onboarding/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

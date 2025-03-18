@@ -1,4 +1,4 @@
-// File: /Users/luizgustavovincenzi/ai-projects/CriaCore/criacore-1/src/app/api/campaigns/route.ts
+// File: /Users/luizgustavovincenzi/ai-projects/criacore/criacore/src/app/api/campaigns/route.ts
 import * as entry from '../../../../../src/app/api/campaigns/route.js'
 import type { NextRequest } from 'next/server.js'
 

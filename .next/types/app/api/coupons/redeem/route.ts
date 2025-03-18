@@ -1,4 +1,4 @@
-// File: /Users/luizgustavovincenzi/ai-projects/CriaCore/criacore-1/src/app/api/coupons/redeem/route.ts
+// File: /Users/luizgustavovincenzi/ai-projects/criacore/criacore/src/app/api/coupons/redeem/route.ts
 import * as entry from '../../../../../../src/app/api/coupons/redeem/route.js'
 import type { NextRequest } from 'next/server.js'
 
