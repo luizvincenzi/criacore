@@ -1,0 +1,8 @@
+2:I[7831,[],""]
+3:I[8667,["250","static/chunks/250-a724e0797d3192cc.js","160","static/chunks/app/not-found-d5b4dde224a29dc3.js"],""]
+4:I[9113,["382","static/chunks/382-abb97271cbb09bca.js","185","static/chunks/app/layout-c13a5076484f16fc.js"],"SupabaseProvider"]
+5:I[5613,[],""]
+6:I[1778,[],""]
+0:["IPNWukEcDCm9Zm_ovd14c",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1",["$","$L2",null,{"propsForComponent":{"params":{}},"Component":"$3","isStaticGeneration":true}],null]]},[null,["$","html",null,{"lang":"pt-BR","children":["$","body",null,{"className":"__className_d65c78","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L3",null,{}],"notFoundStyles":[],"styles":null}]}]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e93a8964a4f513c4.css","precedence":"next","crossOrigin":""}]],"$L7"]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"CriaCore - Plataforma de Marketing com Influenciadores"}],["$","meta","3",{"name":"description","content":"Conecte sua marca a criadores de conteúdo para campanhas de marketing baseadas em desempenho"}],["$","meta","4",{"name":"next-size-adjust"}]]
+1:null
