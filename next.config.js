@@ -1,25 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   images: {
     domains: ['localhost', 'www.luizvincenzi.com', 'luizvincenzi.com'],
     unoptimized: true,
   },
-  // Removido output: 'export' para permitir SSR e rotas dinâmicas
+  // Configuração para exportação estática
+  output: 'export',
   distDir: 'out',
-  trailingSlash: true,  // Ajuda com a estrutura de diretórios no GitHub Pages
+  trailingSlash: true,
   // Configuração para ignorar erros de páginas dinâmicas durante o build
   typescript: {
-    // !! WARN !!
-    // Dangerously allow production builds to successfully complete even if
-    // your project has type errors.
-    // !! WARN !!
     ignoreBuildErrors: true,
   },
   eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
 }
