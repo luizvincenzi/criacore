@@ -1,0 +1,14 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/api/campaigns/route": "app/api/campaigns/route.js",
+  "/auth/callback/page": "app/auth/callback/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/auth/signup/page": "app/auth/signup/page.js",
+  "/auth/onboarding/page": "app/auth/onboarding/page.js",
+  "/page": "app/page.js",
+  "/api/coupons/redeem/route": "app/api/coupons/redeem/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/campaigns/new/page": "app/dashboard/campaigns/new/page.js",
+  "/dashboard/campaigns/page": "app/dashboard/campaigns/page.js",
+  "/dashboard/campaigns/[id]/page": "app/dashboard/campaigns/[id]/page.js"
+}

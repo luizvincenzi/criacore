@@ -6,7 +6,7 @@ const nextConfig = {
     domains: ['localhost', 'www.luizvincenzi.com', 'luizvincenzi.com'],
     unoptimized: true,
   },
-  output: 'export',  // Exportação estática para GitHub Pages
+  // Removido output: 'export' para permitir SSR e rotas dinâmicas
   distDir: 'out',
   trailingSlash: true,  // Ajuda com a estrutura de diretórios no GitHub Pages
   // Configuração para ignorar erros de páginas dinâmicas durante o build
