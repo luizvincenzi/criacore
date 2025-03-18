@@ -2,6 +2,8 @@
 
 Uma plataforma SaaS em português que conecta marcas (especialmente restaurantes locais e PMEs) com criadores de conteúdo para campanhas de marketing baseadas em desempenho. A plataforma permite que empresas criem competições para influenciadores, rastreia o desempenho em tempo real através de hashtags nas redes sociais, e possui um sistema único de rastreamento de cupons para medir conversões diretas.
 
+Teste again agora no new features outra branch !!!!
+
 ## Funcionalidades Principais
 
 - **Sistema de Autenticação e Usuários**: Registro e login para marcas, criadores de conteúdo e administradores, com integração social via Google, Facebook/Instagram e Twitter.
