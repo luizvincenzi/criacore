@@ -1,0 +1,39 @@
+# FastAPI and ASGI server
+fastapi>=0.95.0,<0.96.0
+uvicorn[standard]>=0.21.1,<0.22.0
+
+# Database
+sqlalchemy>=2.0.0,<2.1.0
+alembic>=1.10.2,<1.11.0
+asyncpg>=0.27.0,<0.28.0
+psycopg2-binary>=2.9.5,<2.10.0
+redis>=4.5.4,<4.6.0
+
+# Authentication
+python-jose[cryptography]>=3.3.0,<3.4.0
+passlib[bcrypt]>=1.7.4,<1.8.0
+python-multipart>=0.0.6,<0.1.0
+
+# Utilities
+pydantic>=1.10.7,<1.11.0
+email-validator>=2.0.0,<2.1.0
+python-dotenv>=1.0.0,<1.1.0
+tenacity>=8.2.2,<8.3.0
+httpx>=0.23.3,<0.24.0
+
+# AI and NLP
+openai>=0.27.2,<0.28.0
+llama-index>=0.6.0,<0.7.0
+pinecone-client>=2.2.1,<2.3.0
+
+# Messaging
+twilio>=8.0.0,<8.1.0
+
+# Social Media APIs
+facebook-sdk>=3.1.0,<3.2.0
+tweepy>=4.13.0,<4.14.0
+instagrapi>=1.16.30,<1.17.0
+
+# Testing
+pytest>=7.3.1,<7.4.0
+pytest-asyncio>=0.21.0,<0.22.0
